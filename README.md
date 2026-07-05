@@ -14,17 +14,17 @@
 
 ## 📑 Course Index
 
-| #   | Course                                             | Status         | Key Topics                                  |
-| --- | -------------------------------------------------- | -------------- | ------------------------------------------- |
-| 1   | Foundations of Cybersecurity                       | ✅ Complete    | CIA Triad, Security Domains, Threat History |
-| 2   | Play It Safe: Manage Security Risks                | 🟡 In Progress | —                                           |
-| 3   | Connect and Protect: Networks and Network Security | 🔴 Not Started | —                                           |
-| 4   | Tools of the Trade: Linux and SQL                  | 🔴 Not Started | —                                           |
-| 5   | Assets, Threats, and Vulnerabilities               | 🔴 Not Started | —                                           |
-| 6   | Sound the Alarm: Detection and Response            | 🔴 Not Started | —                                           |
-| 7   | Automate Cybersecurity Tasks with Python           | 🔴 Not Started | —                                           |
-| 8   | Put It to Work: Prepare for Cybersecurity Jobs     | 🔴 Not Started | —                                           |
-| 9   | Accelerate Your Job Search with AI                 | 🔴 Not Started | —                                           |
+| #   | Course                                             | Status         | Key Topics                                     |
+| --- | -------------------------------------------------- | -------------- | ---------------------------------------------- |
+| 1   | Foundations of Cybersecurity                       | ✅ Complete    | CIA Triad, Security Domains, Threat History    |
+| 2   | Play It Safe: Manage Security Risks                | 🟡 In Progress | NIST, CISSP, SIEM, Playbooks, SOC Analyst Role |
+| 3   | Connect and Protect: Networks and Network Security | 🔴 Not Started | —                                              |
+| 4   | Tools of the Trade: Linux and SQL                  | 🔴 Not Started | —                                              |
+| 5   | Assets, Threats, and Vulnerabilities               | 🔴 Not Started | —                                              |
+| 6   | Sound the Alarm: Detection and Response            | 🔴 Not Started | —                                              |
+| 7   | Automate Cybersecurity Tasks with Python           | 🔴 Not Started | —                                              |
+| 8   | Put It to Work: Prepare for Cybersecurity Jobs     | 🔴 Not Started | —                                              |
+| 9   | Accelerate Your Job Search with AI                 | 🔴 Not Started | —                                              |
 
 **Legend:** ✅ Complete &nbsp; 🟡 In Progress &nbsp; 🔴 Not Started
 
@@ -91,9 +91,51 @@ The eight domains that define the scope of cybersecurity work:
 ## 📘 Course 2 — Play It Safe: Manage Security Risks
 
 <details>
-<summary><b>Click to expand — updating after completion</b></summary>
+<summary><b>Click to expand</b></summary>
 
-_In progress..._
+### What This Course Covers
+
+A deeper look at how security professionals think about and manage risk — the frameworks
+they follow, the tools they use, and what the day-to-day reality of a SOC analyst
+actually looks like.
+
+### Key Concepts Learned
+
+**🏗️ Security Frameworks**
+
+- **CISSP's 8 Security Domains** revisited in depth — understanding how risk maps across each domain
+- **NIST Cybersecurity Framework (CSF)** — the industry standard for managing and reducing cybersecurity risk: Identify → Protect → Detect → Respond → Recover
+- **NIST RMF (Risk Management Framework)** — the 7-step process organizations use to manage security risk formally
+
+**📊 SIEM Tools**
+
+- What Security Information and Event Management tools do — aggregate and analyze log data from across an organization in real time
+- How analysts use SIEM dashboards to detect threats, monitor activity, and investigate incidents
+- Introduction to tools like Splunk and Chronicle
+
+**📋 Playbooks**
+
+- What playbooks are — step-by-step guides analysts follow during specific incident types
+- Why consistency matters in incident response — human error under pressure is a real threat
+- How playbooks connect to the broader incident response lifecycle
+
+**👤 Life of a SOC Analyst**
+
+- What entry-level analysts actually do day-to-day — triaging alerts, investigating events, escalating incidents, documenting findings
+- The tools, communication protocols, and decision frameworks they rely on
+- Insights from Google security professionals — real stories, early mistakes, and what they wish they knew
+
+### Honest Reflection
+
+> Course 1 was familiar territory. Course 2 was the first time I felt genuinely challenged —
+> not technically, but in how I think. Security at this level is less about code and more
+> about judgment: what matters, what doesn't, and what you do when you're not sure.
+> Hearing directly from people working security at Google made the career path feel real
+> in a way that a textbook never could.
+
+### Certificate
+
+![Course 2 Certificate](certificates/course2.png)
 
 </details>
 
@@ -101,9 +143,10 @@ _In progress..._
 
 ## 🗂️ Certificates
 
-| Course                                  | Certificate                      |
-| --------------------------------------- | -------------------------------- |
-| Course 1 — Foundations of Cybersecurity | [View](certificates/course1.pdf) |
+| Course                                         | Certificate                      |
+| ---------------------------------------------- | -------------------------------- |
+| Course 1 — Foundations of Cybersecurity        | [View](certificates/course1.png) |
+| Course 2 — Play It Safe: Manage Security Risks | [View](certificates/course2.png) |
 
 ---
 
