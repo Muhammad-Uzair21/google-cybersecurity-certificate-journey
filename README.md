@@ -141,6 +141,77 @@ actually looks like.
 
 ---
 
+## 📘 Course 3 — Connect and Protect: Networks and Network Security
+
+<details>
+<summary><b>Module 1 — Network Architecture & Fundamentals (click to expand)</b></summary>
+
+### What This Module Covers
+The foundational layer of how networks are designed, structured, and communicated across —
+the concepts every security professional needs before they can understand how attacks travel
+and where defences live.
+
+### Key Concepts Learned
+
+**🏗️ Network Architecture, Structure & Design**
+- How networks are physically and logically organised — LANs, WANs, and the relationships between them
+- Network topologies: how devices are arranged and how that affects performance and security
+- The principle that how a network is *designed* directly determines how easy or hard it is to defend
+
+**🛠️ Networking Tools & Devices**
+- **Hub** — broadcasts to all devices; no intelligence, no segmentation
+- **Switch** — sends data only to the intended device; operates at Layer 2
+- **Router** — directs traffic between networks; operates at Layer 3
+- **Firewall** — monitors and filters traffic based on rules; first line of network defence
+- **Modem** — converts signal types to connect a local network to the internet
+- Key insight: understanding what each device *does* tells you what an attacker targets and why
+
+**☁️ Cloud Networks**
+- Cloud computing moves network infrastructure off-premises — storage, servers, and services accessed remotely
+- Three models: **IaaS** (infrastructure), **PaaS** (platform), **SaaS** (software)
+- Security implication: the attack surface expands when resources live outside your physical control
+
+**📦 TCP/IP Model**
+The four-layer model that governs how data actually moves across the internet:
+| Layer | Name | What happens here |
+|---|---|---|
+| 4 | Application | User-facing protocols — HTTP, HTTPS, DNS, SMTP |
+| 3 | Transport | Breaks data into segments; TCP (reliable) vs UDP (fast) |
+| 2 | Internet | IP addressing and routing — where packets go |
+| 1 | Network Access | Physical transmission — cables, Wi-Fi, MAC addresses |
+
+**🔷 OSI Model**
+The seven-layer conceptual model used to troubleshoot and understand where in a network something breaks — or where an attack occurs:
+| Layer | Name | Key concept |
+|---|---|---|
+| 7 | Application | What the user sees — browsers, email clients |
+| 6 | Presentation | Data formatting, encryption, compression |
+| 5 | Session | Opens, manages, and closes communication sessions |
+| 4 | Transport | End-to-end delivery — TCP/UDP, ports |
+| 3 | Network | IP addressing and routing |
+| 2 | Data Link | MAC addresses, switches, frames |
+| 1 | Physical | Cables, signals, bits |
+> Security tip: attackers operate at specific OSI layers. Knowing the model tells you *where* in the stack a threat lives.
+
+**🔑 IP vs MAC Addresses**
+- **IP Address** — logical address assigned to a device on a network; can change; used for routing across networks (Layer 3)
+- **MAC Address** — physical address burned into a network interface card; unique to the hardware; used for communication within a local network (Layer 2)
+- Key distinction: IP gets the packet to the right *network*, MAC gets it to the right *device*
+
+### Honest Reflection
+> The OSI and TCP/IP models look like memorisation exercises until you realise they're
+> actually a map of where things go wrong — and where attacks happen. Every layer is
+> a potential entry point. That reframe made this module click.
+
+</details>
+
+<details>
+<summary><b>Module 2 — updating after completion</b></summary>
+
+*Coming soon...*
+
+</details>
+
 ## 🗂️ Certificates
 
 | Course                                         | Certificate                      |
