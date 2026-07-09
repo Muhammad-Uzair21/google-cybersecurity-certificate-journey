@@ -206,7 +206,103 @@ The seven-layer conceptual model used to troubleshoot and understand where in a 
 </details>
 
 <details>
-<summary><b>Module 2 — updating after completion</b></summary>
+<summary><b>Module 2 — Network Operations (click to expand)</b></summary>
+
+### What This Module Covers
+How data actually moves across networks, the protocols that govern it, and the security
+tools organisations use to monitor, segment, and protect that traffic.
+
+### Key Concepts Learned
+
+**📡 Network Protocols**
+Rules that govern how devices communicate — structure, order, and delivery of data.
+
+| Protocol | Full Name | What it does |
+|---|---|---|
+| **TCP** | Transmission Control Protocol | Reliable, connection-based data streaming between two devices |
+| **ARP** | Address Resolution Protocol | Translates IP addresses → MAC addresses on a local network |
+| **DNS** | Domain Name System | Translates domain names → IP addresses |
+| **HTTP** | Hypertext Transfer Protocol | Client-server communication for web traffic (unsecured) |
+| **HTTPS** | HTTP Secure | Same as HTTP but encrypted — use this, always |
+| **SSH** | Secure Shell | Encrypted remote access to another system's command line |
+| **SFTP** | Secure File Transfer Protocol | Encrypted file transfers between devices |
+| **SNMP** | Simple Network Management Protocol | Monitors and manages network devices |
+
+> 🎯 **Interview tip:** Know TCP vs UDP — TCP is reliable (confirms delivery), UDP is fast (no confirmation). DNS uses UDP by default. HTTPS = HTTP + TLS encryption.
+
+**📶 Wireless Protocols**
+- **IEEE 802.11 (Wi-Fi)** — the standard defining wireless LAN communication
+- **WPA / WPA2 / WPA3** — Wi-Fi Protected Access; each generation stronger than the last
+- WPA3 is current gold standard; WPA (original) is broken and exploitable
+
+**🔥 Firewalls**
+Network security devices that monitor and filter incoming/outgoing traffic based on rules.
+
+| Type | How it works |
+|---|---|
+| **Stateless** | Operates on predefined rules only — no memory of past packets |
+| **Stateful** | Tracks ongoing connections — smarter, proactively filters threats |
+| **Cloud-based** | Hosted by cloud provider — scales with your infrastructure |
+
+- **Port filtering** — blocks or allows specific port numbers to control what traffic gets through
+
+> 🎯 **Interview tip:** Stateful > Stateless. Stateful firewalls *remember* — they can detect anomalies mid-session. Stateless just checks rules and moves on.
+
+**🔒 VPNs & Encapsulation**
+- **VPN** — masks your public IP, encrypts your traffic, makes public networks safer
+- **Encapsulation** — VPNs wrap your sensitive data *inside* other data packets to protect it in transit
+- Common VPN protocols: OpenVPN, WireGuard, IPSec
+
+**🗂️ Network Segmentation & Security Zones**
+
+| Zone | What it is |
+|---|---|
+| **Uncontrolled zone** | Everything outside the organisation — the internet |
+| **Controlled zone** | Internal subnet protected from the uncontrolled zone |
+| **Security zone** | Segment of a network that isolates and protects internal resources |
+
+- **Subnetting** — divides a network into logical groups (subnets) for organisation and security
+- **CIDR** (Classless Inter-Domain Routing) — notation for defining subnet ranges e.g. `192.168.1.0/24`
+
+> 🎯 **Interview tip:** Segmentation limits blast radius. If an attacker breaches one segment, they can't automatically move laterally to everything else.
+
+**🔁 Proxy Servers**
+Sit between a client and the internet — act as intermediaries.
+
+| Type | Direction | Purpose |
+|---|---|---|
+| **Forward proxy** | Client → Internet | Controls/restricts what users can access |
+| **Reverse proxy** | Internet → Internal server | Protects internal servers from direct exposure |
+
+### Quick-Reference Glossary
+> For fast revision before interviews
+
+- **ARP** — IP → MAC translation on local network
+- **CIDR** — subnet range notation (`/24` = 256 addresses)
+- **DNS** — domain name → IP
+- **Encapsulation** — VPN wraps data inside other packets
+- **Firewall** — monitors + filters network traffic
+- **HTTPS** — HTTP + encryption
+- **Port filtering** — blocks/allows traffic by port number
+- **Segmentation** — divides network into isolated zones
+- **SFTP** — encrypted file transfer
+- **SSH** — encrypted remote shell access
+- **Stateful firewall** — tracks connections, smarter filtering
+- **Stateless firewall** — rule-based only, no memory
+- **Subnetting** — splitting a network into logical subnets
+- **TCP** — reliable, connection-based protocol
+- **VPN** — encrypts traffic, masks IP
+
+### Honest Reflection
+> Module 2 is where networking stops being abstract and starts being security-relevant.
+> Every protocol is a potential attack surface. Every firewall type is a tradeoff.
+> The segmentation concept alone — limit the blast radius — is something that comes up
+> in every security conversation worth having.
+
+</details>
+
+<details>
+<summary><b>Module 3 — updating after completion</b></summary>
 
 *Coming soon...*
 
