@@ -323,4 +323,4 @@ Final-year Software Engineering student pivoting into cybersecurity.
 Background in networking, OS, and programming — now building on top of it with
 hands-on security skills, teaching experience, and public documentation of everything I learn.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5)](<(https://www.linkedin.com/in/muhammad-uzair-j21/)>)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5)](https://www.linkedin.com/in/muhammad-uzair-j21/)
