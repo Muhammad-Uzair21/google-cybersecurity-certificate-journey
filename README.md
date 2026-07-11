@@ -393,6 +393,62 @@ Common defensive measures include:
 - Traffic monitoring using packet analyzers
 - Network segmentation to reduce attack impact
 
+### 🧪 Hands-On Activities
+
+<details>
+<summary><b>Activity 1 — Analyze Network Layer Communication</b></summary>
+
+**Scenario:**
+Security analyst at a company. A client calls reporting users can't access `yummyrecipesforme.com` — the page returns: *"Port 23 unreachable."*
+
+**Task:** Analyze tcpdump logs and produce a findings report.
+
+**What I did:**
+- Reviewed tcpdump packet capture logs to trace the communication failure
+- Identified that traffic was being directed to **Port 23** (Telnet) — an unencrypted, legacy protocol that should not be in use
+- Traced the issue to a misconfiguration at the **network layer** — packets were not reaching their intended destination
+
+**Key Finding:**
+Port 23 (Telnet) was unreachable — either blocked by a firewall or not listening on the server. The error surfaced at the **Internet layer** of the TCP/IP model, where routing and addressing determine whether a packet reaches its destination.
+
+**Takeaway:**
+> Reading tcpdump output tells you *where* a failure lives in the stack. "Port unreachable" = the packet arrived at the right IP but no service was listening on that port — a network/transport layer issue, not an application one.
+
+</details>
+
+<details>
+<summary><b>Activity 2 — Analyze a Network Attack</b></summary>
+
+**Scenario:**
+Cybersecurity analyst at a travel agency. Employees use the company website to manage deals and discounts. Monitoring system fires an alert — website is unreachable. Browser returns: *"Unable to reach server."*
+
+**Task:** Analyze Wireshark logs, identify the attack type, explain the damage, and propose a mitigation.
+
+**What I found in the logs:**
+A single IP address was repeatedly sending **SYN packets** to the server. After each SYN, the server responded with a **SYN-ACK** (as expected in a normal TCP handshake) — but the client never sent the final **ACK** to complete the connection. This cycle repeated continuously, filling the server's connection table with half-open connections until it was exhausted and unable to serve legitimate users.
+
+**Attack identified: SYN Flood (DoS)**
+
+| Stage | Normal handshake | What happened |
+|---|---|---|
+| 1 | Client sends SYN | ✅ Attacker sends SYN |
+| 2 | Server responds SYN-ACK | ✅ Server responds SYN-ACK |
+| 3 | Client sends ACK | ❌ Attacker never completes — connection left half-open |
+
+**Damage caused:**
+- Server's connection queue filled with half-open connections
+- Legitimate users could not establish connections
+- Website effectively taken offline — full denial of service
+
+**Mitigation applied (optional task):**
+1. Configured firewall to **block the attacking IP address** immediately
+2. Enabled a rule to **automatically block IPs** that send repeated SYN requests without completing the handshake — preventing future SYN flood attempts and reducing manual response time
+
+**Takeaway:**
+> A SYN flood doesn't need to "hack" anything — it just exploits how TCP works. The fix isn't just blocking one IP; it's building a firewall rule that detects and drops the pattern automatically. That's the difference between reacting and defending.
+
+</details>
+
 ### Quick-Reference Glossary
 
 > Fast interview refresh
