@@ -1,7 +1,7 @@
 # 🛡️ Google Cybersecurity Professional Certificate Journey
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
-![Courses](https://img.shields.io/badge/Courses%20Completed-1%2F9-blue)
+![Courses](https://img.shields.io/badge/Courses%20Completed-2%2F9-blue)
 ![Platform](https://img.shields.io/badge/Platform-Coursera-0056D2)
 ![Issuer](https://img.shields.io/badge/Issuer-Google-4285F4)
 
