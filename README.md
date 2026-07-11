@@ -302,9 +302,115 @@ Sit between a client and the internet — act as intermediaries.
 </details>
 
 <details>
-<summary><b>Module 3 — updating after completion</b></summary>
+<summary><b>Module 3 — Secure against network intrusions (click to expand)</b></summary>
 
-*Coming soon...*
+### What This Module Covers
+How attackers abuse network communication, the common techniques used to disrupt or intercept
+traffic, and the tools security analysts use to inspect packets and investigate suspicious
+network activity.
+
+### Key Concepts Learned
+
+**💥 Denial-of-Service (DoS) Attacks**
+
+A **Denial-of-Service (DoS)** attack attempts to make a system or network unavailable by
+overwhelming it with excessive traffic or requests.
+
+| Attack | How it works |
+|---|---|
+| **SYN Flood** | Exploits TCP's three-way handshake by leaving many connections half-open |
+| **ICMP Flood** | Overwhelms a target with ICMP (ping) requests |
+| **Ping of Death** | Sends malformed or oversized ping packets to crash vulnerable systems (largely historical) |
+
+> 🎯 **Interview tip:** DoS = one attacker targets one victim. DDoS = many compromised devices attack simultaneously.
+
+---
+
+**📦 Network Protocol Analyzers**
+
+Security analysts inspect packets to understand how devices communicate and identify
+malicious activity.
+
+**Common Tool**
+- **tcpdump** — lightweight command-line packet analyzer for capturing live network traffic
+
+Typical packet output includes:
+- **Timestamp** — when the packet was captured
+- **Source IP : Port** — sender
+- **Destination IP : Port** — receiver
+
+Common uses:
+- Monitor network traffic
+- Troubleshoot connectivity issues
+- Investigate suspicious activity
+- Verify network configurations
+
+> 🎯 **Interview tip:** Packet analyzers don't generate traffic—they observe existing traffic.
+
+---
+
+**🕵️ Packet Sniffing**
+
+Packet sniffing captures and inspects network traffic. While commonly used for troubleshooting,
+attackers can also use it to steal sensitive information.
+
+| Type | Description |
+|---|---|
+| **Passive Sniffing** | Silently listens to traffic without modifying it |
+| **Active Sniffing** | Manipulates network traffic (such as ARP spoofing) to intercept packets |
+
+> 🎯 **Interview tip:** Passive = listens. Active = manipulates.
+
+---
+
+**🎭 IP Spoofing**
+
+IP spoofing is the practice of forging the source IP address of packets to disguise the attacker
+or impersonate another device.
+
+| Attack | Description |
+|---|---|
+| **On-path Attack** | Attacker positions themselves between communicating devices to intercept or modify traffic |
+| **Replay Attack** | Previously captured legitimate packets are resent to gain unauthorized access |
+| **Smurf Attack** | Victim's spoofed IP is used to trigger massive ICMP replies from multiple devices |
+
+---
+
+**🛡️ Protecting Network Traffic**
+
+Common defensive measures include:
+
+- **Encryption** — protects data in transit from packet sniffing
+- **Firewall configuration** — blocks suspicious or spoofed traffic (e.g., rejecting incoming packets claiming to originate from the local network)
+- Traffic monitoring using packet analyzers
+- Network segmentation to reduce attack impact
+
+### Quick-Reference Glossary
+
+> Fast interview refresh
+
+- **DoS** — overwhelm one target to deny service
+- **DDoS** — distributed DoS using many compromised devices
+- **SYN Flood** — exhausts TCP connections
+- **ICMP Flood** — excessive ping requests
+- **Ping of Death** — oversized/malformed ICMP packets
+- **tcpdump** — command-line packet analyzer
+- **Packet Sniffing** — capturing network traffic
+- **Passive Sniffing** — listens only
+- **Active Sniffing** — intercepts by manipulating traffic
+- **IP Spoofing** — forged source IP address
+- **On-path Attack** — attacker sits between two communicating devices
+- **Replay Attack** — resend captured legitimate packets
+- **Smurf Attack** — spoofed ICMP amplification attack
+- **Encryption** — protects intercepted data
+- **Firewall Filtering** — blocks unauthorized or spoofed traffic
+
+### Honest Reflection
+
+> This module felt like the turning point of Course 3. Earlier modules explained *how*
+> networks work; this one focused on *how attackers abuse them*. Learning to read packet
+> captures and recognize attacks like SYN floods or spoofing made networking feel much
+> more practical from a defender's perspective.
 
 </details>
 
