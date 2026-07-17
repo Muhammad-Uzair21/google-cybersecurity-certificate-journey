@@ -455,6 +455,8 @@ A single IP address was repeatedly sending **SYN packets** to the server. After 
 
 - **DoS** — overwhelm one target to deny service
 - **DDoS** — distributed DoS using many compromised devices
+- **TCP 3-way handshake** — SYN -> SYN-ACK -> ACK
+- **Botnet** — collection of malware-infected computers controlled by a "bot herder"
 - **SYN Flood** — exhausts TCP connections
 - **ICMP Flood** — excessive ping requests
 - **Ping of Death** — oversized/malformed ICMP packets
@@ -670,6 +672,7 @@ Applied the **NIST Cybersecurity Framework** to document the incident:
 - **TPM** — hardware chip for secure key storage
 - **CloudHSM** — cloud hardware security module
 - **Sandbox** — isolated testing environment
+- **Penetration Testing** — simulated attack to identify vulnerabilities
 - **VM** — virtual machine
 - **Dictionary Attack** — brute force using common passwords
 - **MFA** — multiple authentication factors
