@@ -692,6 +692,8 @@ Applied the **NIST Cybersecurity Framework** to document the incident:
 | ---------------------------------------------- | -------------------------------- |
 | Course 1 — Foundations of Cybersecurity        | [View](certificates/course1.png) |
 | Course 2 — Play It Safe: Manage Security Risks | [View](certificates/course2.png) |
+| Course 2 — Connect and Protect: Networks and Network Security | [View](certificates/course3.png) |
+
 
 ---
 
