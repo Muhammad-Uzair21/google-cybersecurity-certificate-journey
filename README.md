@@ -1,7 +1,7 @@
 # 🛡️ Google Cybersecurity Professional Certificate Journey
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
-![Courses](https://img.shields.io/badge/Courses%20Completed-2%2F9-blue)
+![Courses](https://img.shields.io/badge/Courses%20Completed-3%3F9-blue)
 ![Platform](https://img.shields.io/badge/Platform-Coursera-0056D2)
 ![Issuer](https://img.shields.io/badge/Issuer-Google-4285F4)
 
@@ -26,7 +26,7 @@ These notes are my own summaries, explanations, and reflections while completing
 | --- | -------------------------------------------------- | -------------- | ---------------------------------------------- |
 | 1   | Foundations of Cybersecurity                       | ✅ Complete    | CIA Triad, Security Domains, Threat History    |
 | 2   | Play It Safe: Manage Security Risks                | ✅ Complete    | NIST, CISSP, SIEM, Playbooks, SOC Analyst Role |
-| 3   | Connect and Protect: Networks and Network Security | 🟡 In Progress | —                                              |
+| 3   | Connect and Protect: Networks and Network Security | ✅ Complete    | —                                              |
 | 4   | Tools of the Trade: Linux and SQL                  | 🔴 Not Started | —                                              |
 | 5   | Assets, Threats, and Vulnerabilities               | 🔴 Not Started | —                                              |
 | 6   | Sound the Alarm: Detection and Response            | 🔴 Not Started | —                                              |
