@@ -478,6 +478,214 @@ A single IP address was repeatedly sending **SYN packets** to the server. After 
 
 </details>
 
+<details>
+<summary><b>Module 4 — Security Hardening (click to expand)</b></summary>
+
+### What This Module Covers
+
+How organizations proactively reduce security risks by hardening operating systems,
+networks, and cloud environments. The module also introduces common defensive
+techniques used to minimize attack surfaces and improve an organization's overall
+security posture.
+
+### Key Concepts Learned
+
+**🛡️ Security Hardening**
+
+Security hardening is the process of reducing vulnerabilities by applying secure
+configurations, removing unnecessary services, and following security best practices.
+
+> 🎯 **Interview tip:** Hardening is proactive security—reduce the attack surface before attackers can exploit it.
+
+---
+
+**💻 Operating System (OS) Hardening**
+
+The operating system is the foundation of every computer. Since it manages communication
+between hardware and software, compromising an OS can put the entire system and even the
+network at risk.
+
+Common OS hardening practices:
+
+| Technique | Purpose |
+|---|---|
+| **Patch Management** | Fix known vulnerabilities through regular updates |
+| **Baseline Images** | Deploy systems using secure, standardized configurations |
+| **Backups** | Enable recovery after incidents or failures |
+| **Asset Inventory** | Maintain records of authorized users and devices |
+| **Hardware/Software Disposal** | Securely erase data before disposal |
+| **Strong Password Policies** | Reduce credential-based attacks |
+| **Secure Initial Configuration** | Configure encryption and security settings before deployment |
+
+> 🎯 **Interview tip:** Hardening isn't just patching—it's building a secure system from the beginning and maintaining it over time.
+
+---
+
+**🔑 Brute Force Attacks**
+
+A brute force attack attempts to discover credentials through repeated guesses.
+
+| Type | Description |
+|---|---|
+| **Simple Brute Force** | Tries many username/password combinations |
+| **Dictionary Attack** | Uses lists of common or previously leaked passwords |
+
+Common defenses:
+
+- Salting & Hashing
+- Multi-Factor Authentication (MFA)
+- CAPTCHA / reCAPTCHA
+- Strong Password Policies
+- Account Lockout Policies
+
+---
+
+**🧪 Security Testing Environments**
+
+Before deploying changes or investigating malware, analysts test in isolated environments.
+
+| Tool | Purpose |
+|---|---|
+| **Virtual Machine (VM)** | Isolated software-based computer for safely running code |
+| **Sandbox** | Controlled environment for testing software, malware, and patches |
+
+> 🎯 **Interview tip:** Sandbox = safe testing environment. VM = isolated virtual computer.
+
+---
+
+**🌐 Network Hardening**
+
+Network hardening protects communication between systems by limiting unnecessary access
+and continuously monitoring network activity.
+
+Core techniques:
+
+- **Port Filtering** — allow only required ports
+- **Network Access Privileges** — enforce least privilege
+- **Encryption** — secure data in transit
+- Firewall Rule Maintenance
+- Patch Management
+- Network Log Analysis
+
+> 🎯 **Interview tip:** Good network security limits access first, then continuously monitors activity.
+
+---
+
+**☁️ Cloud Hardening**
+
+Cloud hardening secures cloud infrastructure, applications, and data using secure
+configurations, access controls, and cryptography.
+
+Key concepts:
+
+- **Identity & Access Management (IAM)** — control identities and permissions
+- **Secure Configuration** — prevent misconfigurations
+- **Attack Surface Reduction** — minimize exposed services
+- **Zero-Day Awareness** — understand CSP response capabilities
+- **Visibility & Monitoring** — flow logs and packet mirroring
+- **Baselining** — establish secure reference configurations
+- **Hypervisors**
+  - Type 1 (Bare-metal)
+  - Type 2 (Hosted)
+- **VM Escape** — attacker escapes a virtual machine to the host
+- **Encryption & Cryptography**
+- **Cryptographic Erasure (Crypto-Shredding)**
+- **Key Management**
+  - TPM
+  - CloudHSM
+
+---
+
+**🤝 Shared Responsibility Model**
+
+Cloud security responsibilities are shared between the Cloud Service Provider (CSP)
+and the customer.
+
+| CSP | Customer |
+|---|---|
+| Physical infrastructure | Cloud configurations |
+| Data centers | User identities (IAM) |
+| Hypervisors | Applications |
+| Host operating systems | Data & access controls |
+
+> 🎯 **Interview tip:** The CSP secures **the cloud**; the customer secures **what's in the cloud**.
+
+---
+
+### Portfolio Activities
+
+#### 📝 Security Incident Investigation (OS Hardening)
+
+- Investigated a compromised website inside a **sandbox**
+- Used **tcpdump** to inspect network traffic
+- Identified **HTTP** as the protocol involved
+- Determined malware was delivered through a fake download after a brute force compromise
+- Recommended:
+  - MFA
+  - Strong password policies
+  - Salting & Hashing
+  - CAPTCHA/reCAPTCHA
+  - Patch management
+
+---
+
+#### 📝 Security Risk Assessment (Network Hardening)
+
+Following a customer data breach, recommended network hardening controls to reduce future risk.
+
+Recommendations:
+- Network Access Privileges
+- Multi-Factor Authentication (MFA)
+- Port Filtering
+
+---
+
+#### 📝 NIST Cybersecurity Framework Incident Response
+
+Responded to a **DDoS attack** against a multimedia company's website where excessive
+**ICMP traffic** overwhelmed the servers and disrupted critical network services.
+
+Applied the **NIST Cybersecurity Framework** to document the incident:
+
+| Function | Actions |
+|---|---|
+| **Identify** | Determined the outage was caused by an ICMP-based DDoS attack |
+| **Protect** | Implemented ICMP rate limiting and firewall rules to block spoofed traffic |
+| **Detect** | Deployed IDS/IPS and network monitoring tools to identify abnormal traffic |
+| **Recover** | Restored network services and improved monitoring to reduce future impact |
+
+### Quick-Reference Glossary
+
+> Fast interview revision
+
+- **Security Hardening** — reducing vulnerabilities before attacks occur
+- **OS Hardening** — securing the operating system
+- **Network Hardening** — securing network infrastructure
+- **Cloud Hardening** — securing cloud environments
+- **Baseline** — secure reference configuration
+- **IAM** — Identity & Access Management
+- **Hypervisor** — software managing virtual machines
+- **VM Escape** — attacker escapes a virtual machine
+- **Cryptographic Erasure** — destroying encryption keys instead of files
+- **TPM** — hardware chip for secure key storage
+- **CloudHSM** — cloud hardware security module
+- **Sandbox** — isolated testing environment
+- **VM** — virtual machine
+- **Dictionary Attack** — brute force using common passwords
+- **MFA** — multiple authentication factors
+- **Shared Responsibility Model** — cloud security responsibilities divided between CSP and customer
+
+### Honest Reflection
+
+> This module shifted my perspective from understanding attacks to preventing them.
+> Instead of focusing only on threats, I learned how organizations proactively reduce
+> risk through hardening, layered defenses, secure configurations, and structured
+> incident response. The portfolio activities made the concepts practical by applying
+> OS hardening, network hardening, and the NIST Cybersecurity Framework to realistic
+> security incidents.
+
+</details>
+
 ## 🗂️ Certificates
 
 | Course                                         | Certificate                      |
