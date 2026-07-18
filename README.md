@@ -687,7 +687,7 @@ Applied the **NIST Cybersecurity Framework** to document the incident:
 > OS hardening, network hardening, and the NIST Cybersecurity Framework to realistic
 > security incidents.
 
-![Course 2 Certificate](certificates/course2.png)
+![Course 2 Certificate](certificates/course3.png)
 
 </details>
 
