@@ -9,110 +9,49 @@
 
 ---
 
-# 📖 What This Course Covers
+### What This Course Covers
 
-A deeper look at how security professionals think about and manage risk—the frameworks they follow, the tools they use, and what the day-to-day reality of a SOC analyst actually looks like.
+A deeper look at how security professionals think about and manage risk — the frameworks
+they follow, the tools they use, and what the day-to-day reality of a SOC analyst
+actually looks like.
 
----
+### Key Concepts Learned
 
-## 📑 Contents
+**🏗️ Security Frameworks**
 
-- Security Frameworks
-- SIEM Tools
-- Playbooks
-- Life of a SOC Analyst
-- Personal Reflection
-- Certificate
+- **CISSP's 8 Security Domains** revisited in depth — understanding how risk maps across each domain
+- **NIST Cybersecurity Framework (CSF)** — the industry standard for managing and reducing cybersecurity risk: Identify → Protect → Detect → Respond → Recover
+- **NIST RMF (Risk Management Framework)** — the 7-step process organizations use to manage security risk formally
 
----
+**📊 SIEM Tools**
 
-## 🏗️ Security Frameworks
+- What Security Information and Event Management tools do — aggregate and analyze log data from across an organization in real time
+- How analysts use SIEM dashboards to detect threats, monitor activity, and investigate incidents
+- Introduction to tools like Splunk and Chronicle
 
-### CISSP Security Domains
+**📋 Playbooks**
 
-- Revisited the **8 CISSP Security Domains**
-- Learned how security responsibilities map across each domain
+- What playbooks are — step-by-step guides analysts follow during specific incident types
+- Why consistency matters in incident response — human error under pressure is a real threat
+- How playbooks connect to the broader incident response lifecycle
 
-### NIST Cybersecurity Framework (CSF)
+**👤 Life of a SOC Analyst**
 
-Industry-standard framework for managing cybersecurity risk.
+- What entry-level analysts actually do day-to-day — triaging alerts, investigating events, escalating incidents, documenting findings
+- The tools, communication protocols, and decision frameworks they rely on
+- Insights from Google security professionals — real stories, early mistakes, and what they wish they knew
 
-Functions:
+### Honest Reflection
 
-- Identify
-- Protect
-- Detect
-- Respond
-- Recover
+> Course 1 was familiar territory. Course 2 was the first time I felt genuinely challenged —
+> not technically, but in how I think. Security at this level is less about code and more
+> about judgment: what matters, what doesn't, and what you do when you're not sure.
+> Hearing directly from people working security at Google made the career path feel real
+> in a way that a textbook never could.
 
-### NIST Risk Management Framework (RMF)
+### Certificate
 
-Seven-step framework organizations use to formally manage security risk throughout a system's lifecycle.
-
----
-
-## 📊 SIEM Tools
-
-Security Information and Event Management (SIEM) platforms aggregate and analyze log data across an organization.
-
-Learned:
-
-- How SIEM centralizes security logs
-- Detecting suspicious activity
-- Investigating alerts
-- Monitoring events in real time
-
-Examples introduced:
-
-- Splunk
-- Google Chronicle
-
----
-
-## 📋 Security Playbooks
-
-Playbooks are standardized step-by-step procedures used during specific cybersecurity incidents.
-
-Key concepts:
-
-- Consistent incident response
-- Reduced human error
-- Faster investigations
-- Documentation during incidents
-
----
-
-## 👤 Life of a SOC Analyst
-
-Responsibilities covered:
-
-- Monitoring security alerts
-- Investigating events
-- Triaging incidents
-- Escalating threats
-- Documenting findings
-- Communicating with security teams
-
-Also included insights from Google security professionals about:
-
-- Daily responsibilities
-- Career progression
-- Common beginner mistakes
-- Professional advice
-
----
-
-# 💭 Reflection
-
-> Course 1 introduced cybersecurity concepts.
->
-> Course 2 shifted my mindset toward how security teams actually operate. It focused less on technical implementation and more on structured decision-making, risk management, and standardized processes. Hearing directly from Google's security professionals helped connect the theory to real-world SOC operations.
-
----
-
-# 📜 Certificate
-
-![Course Certificate](course2.png)
+![Course 2 Certificate](course2.png)
 
 ---
 
