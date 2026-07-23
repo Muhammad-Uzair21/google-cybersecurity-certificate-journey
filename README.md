@@ -46,7 +46,7 @@ Every note is written in my own words and focuses on understanding rather than r
 
 | # | Course | Status | Notes | Certificate |
 |---|--------|--------|------|-------------|
-| 1 | Foundations of Cybersecurity | ✅ | [View Notes](01-Foundations-of-Cybersecurity/README.md) | [View Cert](01_Foundations-of-Cybersecurity/course1.png) |
+| 1 | Foundations of Cybersecurity | ✅ | [View Notes](01_Foundations-of-Cybersecurity/README.md) | [View Cert](01_Foundations-of-Cybersecurity/course1.png) |
 | 2 | Play It Safe: Manage Security Risks | ✅ | [View Notes](02_PLAY-IT-SAFE/README.md) | [View Cert](02_PLAY-IT-SAFE/course2.png) |
 | 3 | Connect and Protect: Networks and Network Security | ✅ | [View Notes](03_CONNECT-AND-PROTECT/README.md) | [View Cert](03_CONNECT-AND-PROTECT/course3.png) |
 | 4 | Tools of the Trade: Linux & SQL | 🟡 | Coming Soon | — |
