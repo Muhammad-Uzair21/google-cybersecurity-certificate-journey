@@ -12,6 +12,12 @@
 
 ---
 
+## 📖 Disclaimer
+
+These notes are my own summaries, explanations, and reflections while completing the Google Cybersecurity Professional Certificate. They are written in my own words for personal learning, interview revision, and knowledge sharing, and are **not** a replacement for or reproduction of the official course materials.
+
+---
+
 # 📖 About This Repository
 
 I'm a final-year Software Engineering student transitioning into Cybersecurity.
