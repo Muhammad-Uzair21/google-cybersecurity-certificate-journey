@@ -75,6 +75,6 @@ Topics include:
 
 **Part of my Google Cybersecurity Professional Certificate Journey**
 
-⬅️ [Back to Main Repository](../README.md)     |   &ensp[Next Course](03_CONNECT-AND-PROTECT/README.md) ➡️
+⬅️ [Back to Main Repository](../README.md) ㅤ | ㅤ [Next Course](03_CONNECT-AND-PROTECT/README.md) ➡️
 
 </div>
