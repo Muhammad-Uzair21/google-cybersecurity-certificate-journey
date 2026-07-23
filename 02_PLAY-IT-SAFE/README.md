@@ -51,7 +51,7 @@ actually looks like.
 
 ### 📜 Certificate
 
-![Course 2 Certificate](course2.png)
+![Course 2 Certificate](https://www.coursera.org/account/accomplishments/verify/MO9TYRFSGCHV)
 
 ---
 

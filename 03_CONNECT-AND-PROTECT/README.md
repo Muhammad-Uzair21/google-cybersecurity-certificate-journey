@@ -553,7 +553,7 @@ Applied the **NIST Cybersecurity Framework** to document the incident:
 
 ## 📜 Certificate
 
-![Course 3 Certificate](course3.png)
+![Course 3 Certificate](https://coursera.org/verify/DK3SUGS6KV6R)
 
 ---
 
