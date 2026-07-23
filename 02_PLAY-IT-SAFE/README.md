@@ -49,7 +49,7 @@ actually looks like.
 > Hearing directly from people working security at Google made the career path feel real
 > in a way that a textbook never could.
 
-### Certificate
+### 📜 Certificate
 
 ![Course 2 Certificate](course2.png)
 
@@ -75,6 +75,6 @@ Topics include:
 
 **Part of my Google Cybersecurity Professional Certificate Journey**
 
-⬅️ [Back to Main Repository](../README.md) ㅤ | ㅤ [Next Course](03_CONNECT-AND-PROTECT/README.md) ➡️
+⬅️ [Back to Main Repository](../README.md) ㅤ | ㅤ [Next Course](/03_CONNECT-AND-PROTECT/README.md) ➡️
 
 </div>

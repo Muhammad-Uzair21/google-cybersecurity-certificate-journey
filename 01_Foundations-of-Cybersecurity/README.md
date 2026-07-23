@@ -54,7 +54,7 @@ The eight domains that define the scope of cybersecurity work:
 > That said, I didn't skip it. Fundamentals explained clearly are worth revisiting,
 > especially when you're about to teach them to someone else.
 
-### Certificate
+### 📜 Certificate
 
 ![Course 1 Certificate](course1.png)
 
