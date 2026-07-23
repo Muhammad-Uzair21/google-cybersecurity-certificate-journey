@@ -8,7 +8,7 @@
 
 > A public documentation of my journey through the **Google Cybersecurity Professional Certificate**.
 >
-> This repository contains my personal notes, hands-on lab summaries, portfolio activities, interview revision material, and reflections from each course—not copied course content.
+> This repository contains my personal notes, hands-on lab summaries, portfolio activities, interview revision material, and reflections from each course - not copied course content.
 
 ---
 
