@@ -46,9 +46,9 @@ Every note is written in my own words and focuses on understanding rather than r
 
 | # | Course | Status | Notes | Certificate |
 |---|--------|--------|------|-------------|
-| 1 | Foundations of Cybersecurity | ✅ | [View Notes](01_Foundations-of-Cybersecurity/README.md) | [View Cert](https://www.coursera.org/account/accomplishments/verify/HC88K0WN0LRI) |
-| 2 | Play It Safe: Manage Security Risks | ✅ | [View Notes](02_PLAY-IT-SAFE/README.md) | [View Cert](https://www.coursera.org/account/accomplishments/verify/MO9TYRFSGCHV) |
-| 3 | Connect and Protect: Networks and Network Security | ✅ | [View Notes](03_CONNECT-AND-PROTECT/README.md) | [View Cert](https://www.coursera.org/account/accomplishments/verify/DK3SUGS6KV6R) |
+| 1 | Foundations of Cybersecurity | ✅ | [View Notes](01_Foundations-of-Cybersecurity/README.md) | [View Certificate ↗](https://www.coursera.org/account/accomplishments/verify/HC88K0WN0LRI) |
+| 2 | Play It Safe: Manage Security Risks | ✅ | [View Notes](02_PLAY-IT-SAFE/README.md) | [View Certificate ↗](https://www.coursera.org/account/accomplishments/verify/MO9TYRFSGCHV) |
+| 3 | Connect and Protect: Networks and Network Security | ✅ | [View Notes](03_CONNECT-AND-PROTECT/README.md) | [View Certificate ↗](https://www.coursera.org/account/accomplishments/verify/DK3SUGS6KV6R) |
 | 4 | Tools of the Trade: Linux & SQL | 🟡 | Coming Soon | — |
 | 5 | Assets, Threats, and Vulnerabilities | ⏳ | — | — |
 | 6 | Sound the Alarm: Detection and Response | ⏳ | — | — |
