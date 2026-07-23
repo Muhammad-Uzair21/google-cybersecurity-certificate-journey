@@ -78,6 +78,6 @@ Topics include:
 
 **Part of my Google Cybersecurity Professional Certificate Journey**
 
-⬅️ [Back to Main Repository](../README.md)
+⬅️ [Back to Main Repository](../README.md) ㅤ | ㅤ [Next Course](02_PLAY-IT-SAFE/README.md) ➡️
 
 </div>
