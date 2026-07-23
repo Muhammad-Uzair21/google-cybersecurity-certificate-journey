@@ -9,99 +9,54 @@
 
 ---
 
-# 📖 What This Course Covers
+### What This Course Covers
 
-An entry-level overview of the cybersecurity landscape—who security analysts are, what they do, and the foundational concepts that underpin the entire field.
+An entry-level overview of the cybersecurity landscape — who security analysts are,
+what they do, and the foundational concepts that underpin the entire field.
 
----
+### Key Concepts Learned
 
-## 📑 Contents
-
-- CIA Triad
-- CISSP Security Domains
-- History of Cyber Attacks
-- Entry-Level Security Analyst Toolkit
-- Security Frameworks & Controls
-- Personal Reflection
-- Certificate
-
----
-
-## 🔐 The CIA Triad
-
+**🔐 The CIA Triad**
 The three core principles every security decision is measured against:
 
 - **Confidentiality** — only authorized people access the data
 - **Integrity** — data is accurate and untampered
 - **Availability** — systems and data are accessible when needed
 
----
-
-## 🏛️ The 8 CISSP Security Domains
-
+**🏛️ The 8 CISSP Security Domains**
 The eight domains that define the scope of cybersecurity work:
+`Security & Risk Management` · `Asset Security` · `Security Architecture` ·
+`Communication & Network Security` · `Identity & Access Management` ·
+`Security Assessment & Testing` · `Security Operations` · `Software Development Security`
 
-- Security & Risk Management
-- Asset Security
-- Security Architecture
-- Communication & Network Security
-- Identity & Access Management
-- Security Assessment & Testing
-- Security Operations
-- Software Development Security
-
----
-
-## ⚔️ A Brief History of Cyber Attacks
+**⚔️ A Brief History of Cyber Attacks**
 
 - Early attacks were curiosity-driven (Morris Worm, 1988)
 - Evolved into financially and politically motivated threats
-- Today's landscape includes ransomware, state-sponsored attacks, and large-scale social engineering.
+- Today's landscape: ransomware, state-sponsored attacks, social engineering at scale
 
----
-
-## 🧰 Core Toolkit of an Entry-Level Security Analyst
+**🧰 Core Toolkit of an Entry-Level Analyst**
 
 - SIEM tools (Security Information and Event Management)
-- Network protocol analyzers (e.g., Wireshark)
+- Network protocol analyzers (e.g. Wireshark)
 - Playbooks — step-by-step incident response guides
 
----
+**📋 Security Frameworks & Controls**
 
-## 📋 Security Frameworks & Controls
+- **NIST Cybersecurity Framework** — identify, protect, detect, respond, recover
+- Controls exist at three levels: physical, technical, and administrative
 
-### NIST Cybersecurity Framework (CSF)
-
-Five core functions:
-
-- Identify
-- Protect
-- Detect
-- Respond
-- Recover
-
-### Security Controls
-
-Security controls exist at three levels:
-
-- Physical
-- Technical
-- Administrative
-
----
-
-# 💭 Reflection
+### Honest Reflection
 
 > This course is explicitly designed for people with zero IT background.
-> My software engineering foundation meant I moved through it faster than the recommended pace—concepts like networking, operating systems, and programming references were already familiar.
->
-> Even so, I didn't skip it. Strong fundamentals are worth revisiting, especially if you plan to build a career in cybersecurity.
+> My software engineering foundation meant I moved through it faster than the recommended pace —
+> concepts like networking, OS structure, and programming references landed immediately.
+> That said, I didn't skip it. Fundamentals explained clearly are worth revisiting,
+> especially when you're about to teach them to someone else.
 
----
+### Certificate
 
-# 📜 Certificate
-
-![Course Certificate](course1.png)
+![Course 1 Certificate](certificates/course1.png)
 
 ---
 
