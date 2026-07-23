@@ -56,7 +56,7 @@ The eight domains that define the scope of cybersecurity work:
 
 ### Certificate
 
-![Course 1 Certificate](certificates/course1.png)
+![Course 1 Certificate](course1.png)
 
 ---
 
