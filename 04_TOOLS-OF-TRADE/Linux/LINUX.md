@@ -591,8 +591,7 @@ sudo chown :security report.txt
 
 ---
 
-<details>
-<summary><h2>🧪 Hands-on Labs Completed</h2></summary>
+<h2>🧪 Hands-on Labs Completed</h2>
 
 Throughout this module, I completed guided labs after learning each major concept.
 
@@ -611,12 +610,9 @@ Throughout this module, I completed guided labs after learning each major concep
 - Using sudo responsibly
 - Changing file ownership with chown
 
-</details>
-
 ---
 
-<details>
-<summary><h2>🎯 Module 3 Summary</h2></summary>
+<h2>🎯 Module 3 Summary</h2>
 
 By completing this module, I learned how to:
 
@@ -630,6 +626,4 @@ By completing this module, I learned how to:
 - Use `sudo` securely for administrative tasks
 - Reinforce every concept through practical Bash labs
 
-</details>
-
-</details>
+---
