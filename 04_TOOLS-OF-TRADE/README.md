@@ -20,9 +20,9 @@ Linux for system administration and security operations, and SQL for querying an
 
 | Module | Topics |
 |---------|--------|
-| Module 1 | Operating System Fundamentals |
-| Module 2 | Linux Fundamentals |
-| Module 3 | Linux Commands, Permissions & User Administration |
+| Module 1 | Introduction to Operating Systems |
+| Module 2 | The Linux Operating System |
+| Module 3 | Linux Commands in Bash Shell |
 | Module 4 | Databases & SQL |
 
 ---
