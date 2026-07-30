@@ -1,310 +1,113 @@
 # 🐧 Course 4 — Tools of the Trade: Linux and SQL
 
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 ![Platform](https://img.shields.io/badge/Platform-Coursera-0056D2)
 ![Issuer](https://img.shields.io/badge/Issuer-Google-4285F4)
 
-> Learning the essential tools every entry-level cybersecurity analyst uses daily.
-> This course focuses on Linux system administration, the Bash shell, user and permission management, and SQL for querying security data.
+Mastering two of the most important tools used by cybersecurity professionals:
+Linux for system administration and security operations, and SQL for querying and analyzing structured data.
 
 ---
 
-# 📑 Module Index
+## 📜 Certificate
 
-- Module 1 — Introduction to Operating Systems
-- Module 2 — The Linux Operating System
-- Module 3 — Linux Commands in the Bash Shell
-- Module 4 — Database & SQL *(In Progress)*
+🔗 Verifiable Certificate:
+(Add Coursera Verification Link Here)
 
 ---
 
-# 📘 Module 1 — Operating Systems Fundamentals
+# 📚 Course Modules
 
-## What This Module Covers
-
-An introduction to operating systems, how they interact with hardware and applications, and how processes and memory are managed.
-
-## Key Concepts Learned
-
-### 💻 Operating System
-
-- Interface between hardware and software
-- First software loaded during system boot
-- Responsible for process execution and memory management
-
-### ⚙️ Process Management
-
-- Processes are programs currently being executed
-- Operating system schedules and manages multiple running processes
-
-### 🧠 Memory Management
-
-- Allocates and frees memory for applications
-- Prevents conflicts between running processes
-- Improves stability and efficiency
+| Module | Topics |
+|---------|--------|
+| Module 1 | Operating System Fundamentals |
+| Module 2 | Linux Fundamentals |
+| Module 3 | Linux Commands, Permissions & User Administration |
+| Module 4 | Databases & SQL |
 
 ---
 
-# 📘 Module 2 — Linux Fundamentals
+# 📖 Detailed Notes
 
-## What This Module Covers
+## 🐧 Linux Notes
 
-Introduction to Linux, why it is widely used in cybersecurity, and the architecture of a Linux operating system.
+Covers Modules **1–3**
 
-## Key Concepts Learned
+Topics include:
 
-### 🐧 Linux
+- Operating Systems
+- Linux Architecture
+- Bash Shell
+- Linux Filesystem (FHS)
+- File Navigation
+- File Management
+- Text Editors
+- grep, find & Pipes
+- File Permissions
+- chmod
+- Principle of Least Privilege
+- Authentication & Authorization
+- sudo
+- User Management
+- chown
+- Practical Labs
 
-- Open-source operating system
-- Commonly used for servers, cloud platforms, penetration testing and security operations
-
-### 📦 Linux Distributions
-
-Examples include:
-
-- Ubuntu
-- Debian
-- Kali Linux
-- Fedora
-- Red Hat Enterprise Linux
-
-### ⚙️ Linux Architecture
-
-```
-User
-↓
-Applications
-↓
-Shell
-↓
-Filesystem Hierarchy Standard (FHS)
-↓
-Kernel
-↓
-Hardware
-```
-
-### Components
-
-- **User** — interacts with the system
-- **Applications** — software programs
-- **Shell** — command interpreter
-- **Kernel** — core of the operating system
-- **Hardware** — physical components
+➡️ **[Open Linux Notes](/04_TOOLS-OF-TRADE/Linux/LINUX.md)**
 
 ---
 
-# 📘 Module 3 — Linux Commands & System Administration
+## 🗄 SQL Notes
 
-## What This Module Covers
+Covers Module **4**
 
-Using Bash to navigate Linux, manage files, filter information, administer users, and apply the Principle of Least Privilege.
+Topics include:
 
----
+- Databases
+- Relational Databases
+- Tables
+- Primary & Foreign Keys
+- SQL Queries
+- SELECT
+- FROM
+- ORDER BY
+- WHERE
+- LIKE
+- Wildcards
+- Comparison Operators
+- Logical Operators
+- SQL Joins
+- Aggregate Functions
+- Practical SQL Labs
 
-## 📂 Linux Filesystem
-
-### Filesystem Hierarchy Standard (FHS)
-
-Common directories:
-
-| Directory | Purpose |
-|-----------|---------|
-| `/` | Root directory |
-| `/home` | User home directories |
-| `/bin` | Executable programs |
-| `/etc` | System configuration files |
-| `/tmp` | Temporary files |
-| `/mnt` | Mounted storage devices |
-
-### File Paths
-
-- Absolute path → starts from `/`
-- Relative path → starts from current directory
-- `~` → user's home directory
-- `.` → current directory
-- `..` → parent directory
+➡️ **[Open SQL Notes](/04_TOOLS-OF-TRADE/SQL/SQL.md)**
 
 ---
 
-## 🧭 Navigation Commands
+# 🧪 Hands-on Practice
 
-| Command | Purpose |
-|----------|---------|
-| `pwd` | Current directory |
-| `whoami` | Current user |
-| `ls` | List directory contents |
-| `ls -a` | Include hidden files |
-| `ls -l` | Detailed file information |
-| `ls -la` | Detailed + hidden files |
-| `cd` | Change directory |
+Throughout this course I completed practical labs after learning each major concept.
 
----
+Linux labs included:
 
-## 📖 Reading Files
+- File system navigation
+- File management
+- Permission management
+- User administration
+- Ownership management
+- Filtering with grep, find and pipes
 
-| Command | Purpose |
-|----------|---------|
-| `cat` | Display entire file |
-| `head` | First lines |
-| `tail` | Last lines |
-| `less` | Scroll through file |
+SQL labs included:
 
----
-
-## 📁 Managing Files
-
-| Command | Purpose |
-|----------|---------|
-| `mkdir` | Create directory |
-| `rmdir` | Delete empty directory |
-| `touch` | Create file |
-| `rm` | Delete file |
-| `mv` | Move / Rename |
-| `cp` | Copy |
-| `nano` | Terminal text editor |
-
-### Output Redirection
-
-- `>` overwrite file
-- `>>` append to file
-
----
-
-## 🔍 Filtering Information
-
-### grep
-
-Searches files for matching text.
-
-### Pipe (`|`)
-
-Passes output from one command into another.
-
-### find
-
-Locate files by:
-
-- Name (`-name`, `-iname`)
-- Modification time (`-mtime`, `-mmin`)
-- Directory location
-
----
-
-## 🔐 File Permissions
-
-Permission format:
-
-```
--rwxrwxrwx
-```
-
-Permissions:
-
-- Read (r)
-- Write (w)
-- Execute (x)
-
-Permission owners:
-
-- User
-- Group
-- Others
-
-### chmod
-
-Modify permissions using:
-
-- `+`
-- `-`
-- `=`
-
-### Principle of Least Privilege
-
-Users should receive only the minimum permissions required to perform their job.
-
----
-
-## 👤 Authentication & Authorization
-
-### Authentication
-
-Verifies user identity.
-
-### Authorization
-
-Determines what resources a user may access.
-
----
-
-## 🛡️ sudo
-
-- Temporary administrative privileges
-- Safer than logging in as root
-- Use only when necessary
-
----
-
-## 👥 User Management
-
-### useradd
-
-Create users.
-
-Options:
-
-- `-g` → primary group
-- `-G` → supplementary groups
-
-### usermod
-
-Modify existing users.
-
-Common options:
-
-- `-g`
-- `-a -G`
-- `-d`
-- `-l`
-- `-L`
-
-### userdel
-
-Delete users.
-
-- `-r` → remove home directory
-
-### chown
-
-Change ownership of files/directories.
-
----
-
-## 🧪 Hands-on Labs Completed
-
-- Linux filesystem navigation
-- Reading and analyzing files
-- Creating, moving, copying and deleting files/directories
-- Filtering files with grep, pipes and find
-- Managing file permissions with chmod
-- Applying Principle of Least Privilege
-- Managing Linux users and groups
-- Changing ownership using chown
-- Using sudo responsibly for administrative tasks
-
----
-
-# 📘 Module 4 — SQL
-
-*Coming soon...*
+- Writing SQL queries
+- Filtering datasets
+- Sorting results
+- Pattern matching
+- Using logical operators
+- Joining tables
+- Aggregate functions
 
 ---
 
 # 💭 Reflection
 
-> Compared to the networking course, this course has been far more hands-on.
-> Almost every concept is reinforced through terminal labs, making Linux feel
-> much more natural with practice. Bash commands initially seem overwhelming,
-> but after repeated labs they become muscle memory. Understanding permissions,
-> ownership, and the Principle of Least Privilege especially helped connect Linux
-> administration with real-world security operations.
+This course was significantly more hands-on than previous courses in the certificate. Working directly in the Linux terminal after each lesson helped reinforce commands through repetition, while SQL introduced a structured way to analyze and retrieve security data from databases. Together, Linux and SQL form two of the most essential technical skills for entry-level cybersecurity analysts.
