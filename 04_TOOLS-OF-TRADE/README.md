@@ -11,8 +11,8 @@ Linux for system administration and security operations, and SQL for querying an
 
 ## 📜 Certificate
 
-🔗 Verifiable Certificate:
-(Add Coursera Verification Link Here)
+ 
+🔗 [View Certificate ↗](https://www.coursera.org/account/accomplishments/verify/L9OR84XR2Z1S)
 
 ---
 
