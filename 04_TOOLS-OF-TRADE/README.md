@@ -104,7 +104,6 @@ SQL labs included:
 - Pattern matching
 - Using logical operators
 - Joining tables
-- Aggregate functions
 
 ---
 
