@@ -12,8 +12,8 @@
 
 - Module 1 — Introduction to Asset Security ✅
 - Module 2 — Protect Organizational Assets *(In Progress)*
-- Module 3 — Understand Security Threats *(Coming Soon)*
-- Module 4 — Recognize Security Vulnerabilities *(Coming Soon)*
+- Module 3 — Vulnerabilities in systems *(Coming Soon)*
+- Module 4 — Threats to asset security *(Coming Soon)*
 
 ---
 
