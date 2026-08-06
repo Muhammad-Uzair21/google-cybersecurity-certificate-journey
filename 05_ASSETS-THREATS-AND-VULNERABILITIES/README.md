@@ -24,7 +24,7 @@
 Understanding organizational assets, risk management fundamentals, asset classification, security planning, cybersecurity frameworks, and performing practical risk assessments.
 
 <details>
-<summary><strong>📖 Click to Expand Module 1 Notes</strong></summary>
+<summary><strong>📖 Module 1 </strong></summary>
 
 ---
 
