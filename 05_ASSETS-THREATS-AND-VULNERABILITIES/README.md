@@ -161,14 +161,10 @@ This activity introduced practical risk analysis and prioritization used in real
 Protecting organizational assets through security controls, privacy principles, data governance, encryption, hashing, and cryptographic technologies.
 
 <details>
-<summary><strong>📖 Click to Expand Module 2 Notes</strong></summary>
+<summary><strong>📖 Module 2 </strong></summary>
 
 > 🚧 **Coming Soon...**
 
 </details>
 
 ---
-
-# 💭 Reflection
-
-> This course shifts from learning technical tools to understanding how organizations protect their most valuable assets. It introduces risk management, security planning, governance, privacy, and cryptography—the foundation for making effective security decisions before incidents occur.
