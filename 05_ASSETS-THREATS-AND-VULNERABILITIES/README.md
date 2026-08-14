@@ -17,7 +17,7 @@ The course focuses on understanding how organizations identify assets, assess ri
 | Module 01 | [Introduction to Asset Security](./module01.md) | ✅ Completed |
 | Module 02 | [Protect Organizational Assets](./module02.md) | ✅ Completed |
 | Module 03 | [Vulnerabilities in Systems](./module03.md) | ✅ Completed |
-| Module 04 | [Threats to Asset Security](./module04.md) | 🚧 In Progress |
+| Module 04 | [Threats to Asset Security](./module04.md) | ✅ Completed |
 
 ---
 
