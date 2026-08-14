@@ -67,6 +67,7 @@ Google-Cybersecurity-Professional-Certificate/
 ├── 02-Play-It-Safe-Manage-Security-Risks
 ├── 03-Connect-and-Protect-Networks
 ├── 04-Linux-and-SQL
+├── 05-Assets-Threats-and-Vulnerabilities
 ├── ...
 └── README.md
 ```
