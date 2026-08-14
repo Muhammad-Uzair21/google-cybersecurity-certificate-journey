@@ -84,7 +84,7 @@ Strengthen the defenses
 
 # 📂 Repository Structure
 
-Course-05-Assets-Threats-Vulnerabilities/
+Course-05-Assets-Threats-and-Vulnerabilities/
 │
 ├── README.md
 ├── module01.md
