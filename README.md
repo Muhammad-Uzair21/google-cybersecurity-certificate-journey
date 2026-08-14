@@ -49,8 +49,8 @@ Every note is written in my own words and focuses on understanding rather than r
 | 1 | Foundations of Cybersecurity | ✅ | [View Notes](01_Foundations-of-Cybersecurity/README.md) | [View Certificate ↗](https://www.coursera.org/account/accomplishments/verify/HC88K0WN0LRI) |
 | 2 | Play It Safe: Manage Security Risks | ✅ | [View Notes](02_PLAY-IT-SAFE/README.md) | [View Certificate ↗](https://www.coursera.org/account/accomplishments/verify/MO9TYRFSGCHV) |
 | 3 | Connect and Protect: Networks and Network Security | ✅ | [View Notes](03_CONNECT-AND-PROTECT/README.md) | [View Certificate ↗](https://www.coursera.org/account/accomplishments/verify/DK3SUGS6KV6R) |
-| 4 | Tools of the Trade: Linux & SQL | ✅ | [View Notes](02_PLAY-IT-SAFE/README.md) | [View Certificate ↗](https://www.coursera.org/account/accomplishments/verify/L9OR84XR2Z1S) |
-| 5 | Assets, Threats, and Vulnerabilities | 🟡 | — | — |
+| 4 | Tools of the Trade: Linux & SQL | ✅ | [View Notes](04_TOOLS-OF-TRADE/README.md) | [View Certificate ↗](https://www.coursera.org/account/accomplishments/verify/L9OR84XR2Z1S) |
+| 5 | Assets, Threats, and Vulnerabilities | ✅ | [View Notes](05_ASSETS-THREATS-AND-VULNERABILITIES/README.md) | [View Certificate ↗](https://www.coursera.org/account/accomplishments/certificate/7TPTBDVXOPID) |
 | 6 | Sound the Alarm: Detection and Response | ⏳ | — | — |
 | 7 | Automate Cybersecurity Tasks with Python | ⏳ | — | — |
 | 8 | Put It to Work: Prepare for Cybersecurity Jobs | ⏳ | — | — |
