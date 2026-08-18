@@ -430,7 +430,7 @@ The module includes a portfolio activity involving an incident handler's journal
 
 ---
 
-### 🎯 Key Takeaways
+## 🎯 Key Takeaways
 Incident response follows a lifecycle, but the process is not strictly linear.
 
 - The NIST lifecycle consists of Preparation, Detection & Analysis, Containment/Eradication/Recovery, and Post-Incident Activity.
