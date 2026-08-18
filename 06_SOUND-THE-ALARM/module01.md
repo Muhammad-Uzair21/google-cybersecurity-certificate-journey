@@ -428,6 +428,7 @@ The module includes a portfolio activity involving an incident handler's journal
 
 - This activity develops into a complete, portfolio-worthy incident documentation exercise as additional course material is completed.
 
+</details>
 ---
 
 ## 🎯 Key Takeaways
