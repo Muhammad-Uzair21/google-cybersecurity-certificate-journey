@@ -419,7 +419,7 @@ Security Orchestration, Automation, and Response (SOAR) tools help security team
 
 </details>
 
-# 📓 Document an Incident with an Incident Handler's Journal
+## 📓 Document an Incident with an Incident Handler's Journal
 The module includes a portfolio activity involving an incident handler's journal:
 
 - The activity starts with a security incident scenario and initial journal entries.
