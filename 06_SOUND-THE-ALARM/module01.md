@@ -453,3 +453,5 @@ Incident response follows a lifecycle, but the process is not strictly linear.
 - Effective incident response depends on both technical tools and coordinated people/processes.
 
 ---
+
+[➡️ Module 2 — Network Monitoring and Analysis](./module02.md)
