@@ -68,7 +68,7 @@ Throughout the course, practical activities focus on:
 | Module | Status |
 |---|---|
 | Module 1 — Introduction to Detection and Incident Response | ✅ Completed |
-| Module 2 — Network Monitoring and Analysis | ⏳ Upcoming |
+| Module 2 — Network Monitoring and Analysis | ✅ Completed |
 | Module 3 — Incident Investigation and Response | ⏳ Upcoming |
 | Module 4 — Network Traffic and Logs Using IDS and SIEM Tools | ⏳ Upcoming |
 
