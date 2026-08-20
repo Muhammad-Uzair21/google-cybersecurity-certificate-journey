@@ -11,7 +11,7 @@
 # 📑 Module Index
 
 - [Module 1 — Introduction to Detection and Incident Response](./module01.md) ✅
-- Module 2 — Network Monitoring and Analysis
+- [Module 2 — Network Monitoring and Analysis](./module02.md) ✅
 - Module 3 — Incident Investigation and Response
 - Module 4 — Network Traffic and Logs Using IDS and SIEM Tools
 
