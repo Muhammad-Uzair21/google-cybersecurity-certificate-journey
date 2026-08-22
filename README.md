@@ -143,6 +143,7 @@ Examples include:
 - SQL Investigations
 - Incident Response using NIST Incident response lifecycle
 - Network Logs Analysis
+- Alerts and Triage using IDS/SIEM tools like Suricata & Google SecOps
 
 ---
 
