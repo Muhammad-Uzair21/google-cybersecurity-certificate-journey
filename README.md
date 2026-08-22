@@ -140,7 +140,7 @@ Examples include:
 - Network Hardening Recommendations
 - Security Incident Response using the NIST CSF
 - Linux Administration Labs
-- SQL Investigations *(ongoing)*
+- SQL Investigations
 
 ---
 
