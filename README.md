@@ -142,6 +142,7 @@ Examples include:
 - Linux Administration Labs
 - SQL Investigations
 - Incident Response using NIST Incident response lifecycle
+- Network Logs Analysis
 
 ---
 
