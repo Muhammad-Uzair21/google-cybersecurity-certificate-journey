@@ -181,6 +181,24 @@ Examples include:
 
 ---
 
+# 🔬 Practical Experience
+
+The certificate has included hands-on work with cybersecurity tools and investigation workflows, including:
+
+- Capturing and analyzing network traffic with `tcpdump`
+- Comparing packet-analysis workflows using Wireshark and tcpdump
+- Investigating malware indicators using VirusTotal
+- Applying the Pyramid of Pain to malware IoCs
+- Following incident-response playbooks
+- Documenting incidents using an Incident Handler's Journal
+- Writing and analyzing Suricata signatures
+- Investigating Suricata logs
+- Searching and analyzing security events using SIEM tools
+- Using SPL in Splunk
+- Using UDM and Raw Log Search in Google Security Operations
+
+---
+
 # 📚 Learning Philosophy
 
 My goal isn't to memorize definitions.
