@@ -62,13 +62,14 @@ Every note is written in my own words and focuses on understanding rather than r
 
 ```text
 Google-Cybersecurity-Professional-Certificate/
-
-├── 01-Foundations-of-Cybersecurity
-├── 02-Play-It-Safe-Manage-Security-Risks
-├── 03-Connect-and-Protect-Networks
-├── 04-Linux-and-SQL
-├── 05-Assets-Threats-and-Vulnerabilities
-├── 06-Sound-The-Alarm
+│
+├── 01-Foundations-of-Cybersecurity/
+├── 02-Play-It-Safe-Manage-Security-Risks/
+├── 03-Connect-and-Protect-Networks/
+├── 04-Linux-and-SQL/
+├── 05-Assets-Threats-and-Vulnerabilities/
+├── 06-Sound-The-Alarm/
+├── 07-Automate-Cybersecurity-Tasks-with-Python/
 ├── ...
 └── README.md
 ```
