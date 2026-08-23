@@ -96,35 +96,67 @@ Each course contains:
 - VPNs
 - Network Segmentation
 - Packet Analysis
+- Network Traffic Analysis
+- Network Monitoring
+- Network-Based Intrusion Detection
 
 ### Linux
 
 - Linux Operating System
 - Bash
 - File System
-- Permissions
+- File Permissions
 - Authentication
 - Authorization
+- Linux Administration
 
 ### Security
 
 - Risk Assessment
+- Vulnerability Assessment
 - Security Hardening
+- Threat Intelligence
+- Threat Hunting
+- Indicators of Compromise (IoCs)
+- Indicators of Attack (IoAs)
+- Incident Detection
+- Incident Investigation
+- Incident Triage
 - Incident Response
-- Network Hardening
-- OS Hardening
-- Cloud Security
-- Identity & Access Management
+- Containment, Eradication & Recovery
+- Business Continuity
+- Security Documentation
+- Chain of Custody
 
-### Frameworks
+### Detection & SIEM
+
+- IDS / IPS
+- HIDS / NIDS
+- Signature-Based Detection
+- Anomaly-Based Detection
+- Log Analysis
+- Log Ingestion
+- SIEM
+- SPL
+- UDM Search
+- Raw Log Search
+
+### Frameworks & Methodologies
 
 - NIST Cybersecurity Framework
 - NIST Risk Management Framework
-- CISSP Security Domains
+- NIST Incident Response Lifecycle
+- Pyramid of Pain
+- Incident Response Playbooks
 
 ### Tools
 
 - tcpdump
+- Wireshark
+- Suricata
+- Splunk
+- Google Security Operations
+- VirusTotal
 - Linux Bash
 - Virtual Machines
 - Sandbox Environments
