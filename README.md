@@ -220,8 +220,8 @@ Complete the Google Cybersecurity Professional Certificate while building a port
 **Muhammad Uzair**
 
 - 🎓 Final-year Software Engineering Student
-- 🛡️ Aspiring SOC Analyst
-- 🌐 Learning Cybersecurity, Linux, Networking & Python
+- 🛡️ Aspiring SOC / Cybersecurity Analyst
+- 🌐 Focused on Security Operations, Networking, Linux & Incident Response
 - 🇵🇰 Karachi, Pakistan
 
 ## Connect with me
