@@ -1,10 +1,10 @@
 # 🛡️ Google Cybersecurity Professional Certificate Journey
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
-![Progress](https://img.shields.io/badge/Courses-4%2F9-blue)
+![Progress](https://img.shields.io/badge/Courses-6%2F9-blue)
 ![Platform](https://img.shields.io/badge/Platform-Coursera-0056D2)
 ![Issuer](https://img.shields.io/badge/Issuer-Google-4285F4)
-![Last Updated](https://img.shields.io/badge/Last%20Updated-July%202026-success)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-August%202026-success)
 
 > A public documentation of my journey through the **Google Cybersecurity Professional Certificate**.
 >
