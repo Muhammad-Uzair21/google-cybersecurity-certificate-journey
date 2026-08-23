@@ -38,7 +38,7 @@ Every note is written in my own words and focuses on understanding rather than r
 
 | Progress | Status |
 |----------|--------|
-| **5 / 9 Courses Completed** | 🟡 In Progress |
+| **6 / 9 Courses Completed** | 🟡 In Progress |
 
 ---
 
