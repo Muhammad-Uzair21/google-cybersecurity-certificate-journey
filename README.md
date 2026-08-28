@@ -52,7 +52,7 @@ Every note is written in my own words and focuses on understanding rather than r
 | 4 | Tools of the Trade: Linux & SQL | ✅ | [View Notes](04_TOOLS-OF-TRADE/README.md) | [View Certificate ↗](https://www.coursera.org/account/accomplishments/verify/L9OR84XR2Z1S) |
 | 5 | Assets, Threats, and Vulnerabilities | ✅ | [View Notes](05_ASSETS-THREATS-AND-VULNERABILITIES/README.md) | [View Certificate ↗](https://www.coursera.org/account/accomplishments/certificate/7TPTBDVXOPID) |
 | 6 | Sound the Alarm: Detection and Response | ✅ | [View Notes](06_SOUND-THE-ALARM/README.md) | [View Certificate ↗](https://www.coursera.org/account/accomplishments/records/D1TKRJ845B7K) |
-| 7 | Automate Cybersecurity Tasks with Python | ✅ | [View Notes](07_AUTOMATE-CYBERSECURITY-TASKS-WITH-PYTHON/README.md) | [View Certificate ↗](https://www.coursera.org/account/accomplishments/records/D1TKRJ845B7K) |
+| 7 | Automate Cybersecurity Tasks with Python | ✅ | [View Notes](07_AUTOMATE-CYBERSECURITY-TASKS-WITH-PYTHON/README.md) | [View Certificate ↗](https://www.coursera.org/account/accomplishments/verify/60H51AHDXDT4) |
 | 8 | Put It to Work: Prepare for Cybersecurity Jobs | 🟡 In Progress | — | — |
 | 9 | Accelerate Your Job Search with AI | ⏳ | — | — |
 
