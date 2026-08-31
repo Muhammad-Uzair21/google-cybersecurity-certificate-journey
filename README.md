@@ -209,12 +209,6 @@ This repository reflects that approach through concise notes, practical exercise
 
 ---
 
-# 🚀 Current Goal
-
-Complete the Google Cybersecurity Professional Certificate while building a portfolio that demonstrates practical understanding-not just course completion.
-
----
-
 # 👨‍💻 About Me
 
 **Muhammad Uzair**
