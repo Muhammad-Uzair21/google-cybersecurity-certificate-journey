@@ -10,7 +10,7 @@
 
 # 🏆 Specialization Certificate
 
-**Google Cybersecurity Professional Certificate** — ✅ Completed
+**Google Cybersecurity Professional Certificate** - ✅ Completed
 
 [View Specialization Certificate ↗](https://coursera.org/share/d5bb0b47e4f99f768f869cce97419c5c)
 
