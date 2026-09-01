@@ -6,6 +6,16 @@
 ![Issuer](https://img.shields.io/badge/Issuer-Google-4285F4)
 ![Last Updated](https://img.shields.io/badge/Last%20Updated-August%202026-success)
 
+---
+
+# 🏆 Specialization Certificate
+
+**Google Cybersecurity Professional Certificate** — ✅ Completed
+
+[View Specialization Certificate ↗](https://coursera.org/share/d5bb0b47e4f99f768f869cce97419c5c)
+
+---
+
 > A public documentation of my journey through the **Google Cybersecurity Professional Certificate**.
 >
 > This repository contains my personal notes, hands-on lab summaries, portfolio activities, interview revision material, and reflections from each course - not copied course content.
@@ -31,14 +41,6 @@ Instead of simply collecting certificates, I'm documenting everything I learn in
 - help other beginners revise important topics
 
 Every note is written in my own words and focuses on understanding rather than reproducing course material.
-
----
-
-# 🎯 Current Progress
-
-| Progress | Status |
-|----------|--------|
-| **8 / 9 Courses Completed** | 🟡 In Progress |
 
 ---
 
