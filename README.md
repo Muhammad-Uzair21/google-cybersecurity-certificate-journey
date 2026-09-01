@@ -56,7 +56,7 @@ Every note is written in my own words and focuses on understanding rather than r
 | 6 | Sound the Alarm: Detection and Response | ✅ | [View Notes](06_SOUND-THE-ALARM/README.md) | [View Certificate ↗](https://www.coursera.org/account/accomplishments/records/D1TKRJ845B7K) |
 | 7 | Automate Cybersecurity Tasks with Python | ✅ | [View Notes](07_AUTOMATE-CYBERSECURITY-TASKS-WITH-PYTHON/README.md) | [View Certificate ↗](https://www.coursera.org/account/accomplishments/verify/60H51AHDXDT4) |
 | 8 | Put It to Work: Prepare for Cybersecurity Jobs | ✅ | — | [View Certificate ↗](https://www.coursera.org/account/accomplishments/certificate/I9MKJGD8HGOT) |
-| 9 | Accelerate Your Job Search with AI | ⏳ | — | — |
+| 9 | Accelerate Your Job Search with AI | ✅ | — | [View Certificate ↗](https://coursera.org/share/d4984a586035194371c550cd8214c93c) |
 
 ---
 
