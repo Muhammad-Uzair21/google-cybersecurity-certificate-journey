@@ -12,13 +12,13 @@
 
 **Google Cybersecurity Professional Certificate** - ✅ Completed
 
-![Google Cybersecurity Professional Certificate](./assets/google-cybersecurity-professional-certificate.png)
+![Google Cybersecurity Professional Certificate](./assets/Certificate.png)
 
 [View Specialization Certificate ↗](https://coursera.org/share/d5bb0b47e4f99f768f869cce97419c5c)
 
 ### 🏅 Credential Badge
 
-![Google Cybersecurity Professional Certificate Badge](./assets/google-cybersecurity-badge.png)
+![Google Cybersecurity Professional Certificate Badge](./assets/Badge.png)
 
 [View Badge ↗](YOUR_CREDLY_BADGE_LINK)
 
