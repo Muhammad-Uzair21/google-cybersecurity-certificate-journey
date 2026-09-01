@@ -16,7 +16,7 @@
 
 ### 🏅 Credential Badge
 
-![Google Cybersecurity Professional Certificate Badge](./assets/Badge.png)
+[View Badge ↗](https://www.credly.com/badges/c40ccce8-384e-48d9-964a-f283ffa2f27e/public_url)
 
 ---
 
